@@ -1,0 +1,143 @@
+﻿@font-face {
+    font-family: MSDOS;
+    src: url('MSDOS Font.ttf');
+}
+
+
+body {
+    width: 99%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #404040;
+    font-family: MSDOS;
+    color:white;
+}
+
+.playspace {
+
+    width:50%;
+    height:70%;
+    background-color:black;
+    position: absolute;
+    top: 5%;
+    left:5%;
+
+    color:white;
+    font-size:1.5em;
+
+}
+
+.OUT {
+    width: 96%;
+    height: 98%;
+    position: absolute;
+    top: 0.5%;
+    left: 2%;
+
+    overflow:scroll;
+    font-size:1em;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family:MSDOS;
+}
+
+.mapspace {
+
+    width:35%;
+    height:50%;
+    background-color:black;
+    position:absolute;
+    top:5%;
+    left: 60%;
+    color:white;
+}
+
+.MAP {
+    width:98.3%;
+    height:100%;
+
+    position:absolute;
+    top:;
+    left:1%;
+
+    background-color:black;
+    color:white;
+    border:none;
+    font-family:;
+}
+
+.MAP:focus {
+    outline:none;
+}
+
+.typespace {
+
+    width:50%;
+    height:10%;
+    background-color:black;
+    position:absolute;
+    top:75%;
+    left:5%;
+
+    border-top:1px dotted white;
+
+}
+
+#INP {
+
+    width:90%;
+    height:95%;
+    position:absolute;
+    left:5%;
+    top:0;
+
+    background-color:black;
+    border:none;
+    color:white;
+    font-size:3em;
+    font-family:MSDOS;
+
+}
+
+#INP:focus {
+    outline:none;
+}
+
+.invspace {
+    width: 35%;
+    height: 30%;
+    background-color: black;
+    border-top:1px solid white;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+}
+
+.INV {
+
+    width:98%;
+    height:98%;
+    position:absolute;
+    top:1%;
+    left:1%;
+    background-color:;
+    color:white;
+
+}
+
+.hiddenData {
+
+    display:none;
+
+}
+
+#clue {
+
+    color:red;
+    cursor: pointer;
+
+}
+
